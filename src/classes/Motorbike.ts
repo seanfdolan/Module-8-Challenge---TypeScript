@@ -44,6 +44,10 @@ class Motorbike extends Vehicle {
       console.log('Motorbike ${this.make} ${this.model} is doing a wheelie!');
     }
   // TODO: Implement the wheelie method
+  if (this.topSpeed > 100) {
+    if (this.wheels.length !== 1) {
+        console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`);
+    }
     // TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
 
     override printDetails(): void {
