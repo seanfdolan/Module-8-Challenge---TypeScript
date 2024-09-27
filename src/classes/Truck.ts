@@ -44,7 +44,12 @@ class Truck extends Vehicle implements AbleToTow {
     // TODO: The constructor should check if the wheels array has 4 elements and create 4 new default Wheel objects if it does not
 
   // TODO: Implement the tow method from the AbleToTow interface
-  //
+  import {  } from ""../interfaces/AbleToTow.js"";
+    interface AbleToTow {
+        tow(vehicle: Vehicle): void;
+    }
+
+
   tow(vehicle: Truck | Motorbike | Car): void {
     // TODO: Get the make an model of the vehicle if it exists
     
